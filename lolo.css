@@ -1,0 +1,36 @@
+body{background: #000000;  
+background: -webkit-linear-gradient(to left, #434343, #000000);  
+background: linear-gradient(to left, #434343, #000000); 
+margin:0;
+padding:0;
+}
+
+
+.list ul{
+	overflow:hidden;
+	align:middle;
+	margin-left:700px;
+	
+	
+}
+.list li{
+	float:left;
+	list-style-type:none;
+	align:center;
+}
+.list a{
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	color: #999;
+	display: block;
+	text-align: center;
+	 font-size: 50px;
+	 
+}
+.list a:hover{
+	color:#555;
+}
+.list li + li{	
+	border-left: 1px solid #aaa;	
+}
+	
